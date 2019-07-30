@@ -1,0 +1,15 @@
+.navtext a:hover{color: #fcb97e}
+
+::selection{
+  color:white;
+  background: grey;
+}
+
+#logo{
+    height:40%; 
+    width:40%;
+    float: left
+}
+.navtext{
+    padding-top:20px
+}
