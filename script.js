@@ -1,24 +1,45 @@
 var countriesInfo = {
-  "Afghanistan": ["None", "Sure", "Heck Yeah", "Do what you want", "yeah"],
-  "Albania": ["no", "no", "yes", "lol","no"],
-  "Algeria": ["Yes", "No", "Yes", "lol","sure"],
-  "Germany": ["Yes", "No", "Yes", "lol","yes"],
-  "United States of America": ["Yes", "Yes", "Yes", "lol","alright"],
-  "Canada": ["Yes", "No", "Yes", "No","yup"],
-  "Spain": ["Yes", "Yes", "Yes", "No","sure"],
-  "Italy": ["Yes", "Yes", "Yes", "Yes","never"],
-  "Ireland": ["Yes", "Yes", "Yes", "Yes","well"],
-  "Iceland": ["Yes", "No", "Yes", "Yes","yeah"],
-  "France": ["Yes", "Yes", "No", "Yes","sure"],
-  "Portugal": ["Yes", "No", "Yes", "Yes","never"],
-  "Greece": ["Yes", "No", "Yes", "Yes","lmao"],
-  "India": ["No", "No", "No", "No","alright"],
-  "Japan": ["No", "No", "No", "Yes","nevermind"],
-  "China": ["No", "No", "Yes", "No","never"],
-  "Israel": ["Yes", "Yes", "Yes", "No","like"],
-  "Egypt": ["No", "No", "No", "No","sure"],
-  "Kenya": ["No", "No", "No", "No","awake"],
-  "Thailand": ["Yes", "Yes", "No", "No","yes"],
+  "Afghanistan": ["Currently, being LGBT in Afghanistan is illegal. In many cases, it is punishable by death.", "Avoid public displays of affection.", "We highly recommend not disclosing sexual-orientation and same-sex relationships.", "It is essential that you act in a considered and measured way at all times.", "No shorts, no mini skirts or no shirts that show a major part of a woman’s chest. If you have a wedding/engagement ring, we suggest that you take it off to avoid any misunderstandings."],
+
+  "Albania": ["Homosexuality is legal, but there is widespread homophobia throught Albania.", "Avoid public displays of affection", "Due to general homophobia, we recommend not disclosing sexual-orientation and same-sex relationships.", "It is essential that you act in a considered and measured way at all times.","Please dress conservately (covered shoulders and knees) in mosques and churches. If you have a wedding/engagement ring, we suggest that you take it off to avoid any misunderstandings."],
+
+  "Algeria": ["Since 1966 the Islamic Sharia law has been applied being LGBT in Algeria is illegal and same-sex marriage is illegal as well. ", "No", "We highly recommend not disclosing sexual-orientation and same-sex relationships.", "It is essential that you act in a considered and measured way at all times.","Please dress conservately (covered shoulders and knees). Long sleeves are suggested in southern cities. Shorts are only appropriate at the beach and in private. If you have a wedding/engagement ring, we suggest that you take it off to avoid any misunderstandings."],
+
+  "Germany": ["", "No", "It is safe to disclose sexual-orientation and same-sex relationships.", "lol","Dress modestly and according to the weather."],
+
+  "United States of America": ["Yes", "Yes", "It is safe to disclose sexual-orientation and same-sex relationships. However, keep caution.", "lol","Dress as you wish but be mindful in mid-western states."],
+
+  "Canada": ["Yes", "No", "It is safe to disclose sexual-orientation and same-sex relationships.", "No","Dress as you wish and according to the weather."],
+
+  "Spain": ["Yes", "Yes", "It is safe to disclose sexual-orientation and same-sex relationships.", "No","Dress as you wish but be mindful in religious areas."],
+
+  "Italy": ["Homosexuality has been legal since 1890. However, older generations have had widely religious views on LGBT people. In 2016, Italy's parliament backed same-sex civil unions.", "Yes", "It is safe to disclose sexual-orientation and same-sex relationships. However, keep caution.", "Yes","Please dress conservately (covered shoulders and knees) in churches. You will be judged on the quality and style of your clothes"],
+
+  "Ireland": ["Yes", "Yes", "It is safe to disclose sexual-orientation and same-sex relationships. However, keep caution.", "Yes","Please dress conservately and according to the weather. You will be judged on the quality and style of your clothes. Boots are always sensible item to pack."],
+
+  "Iceland": ["Yes", "No", "It is safe to disclose sexual-orientation and same-sex relationships.", "Yes","Dress according to the weather. Layers are most advisable."],
+
+  "France": ["Yes", "Yes", "It is safe to disclose sexual-orientation and same-sex relationships. However, keep caution.", "Yes","sure"],
+
+  "Portugal": ["Yes", "No", "It is safe to disclose sexual-orientation and same-sex relationships. However, keep caution.", "Yes","never"],
+
+  "Greece": ["Yes", "No", "It is safe to disclose sexual-orientation and same-sex relationships. However, keep caution.", "Yes","lmao"],
+
+  "India": ["No", "No", "Due to general homophobia, we recommend not disclosing sexual-orientation nor same-sex relationships.", "No","alright"],
+
+  "Japan": ["Being recognized as LGBT has been legal in Japan since 1880 and there are no laws against homosexuality. However, same-sex marriage has not been recognized. Although marriage isn’t legal everyone is very welcoming, some of the most gay friendly cities in Japan are Tokyo, Osaka, Sapporo, Fukuoka, and Nagoya with many fun and inviteful activities to do.", "No", "It is safe to disclose sexual-orientation and same-sex relationships. However, keep caution.", "Yes","nevermind"],
+
+  "China": ["In China being an LGBT member has been legal since 1997 and is recognized. However same-sex marriage has not been yet legalized or recognized.", "No", "It is safe to disclose sexual-orientation and same-sex relationships. However, keep caution.", "No","never"],
+
+  "Israel": ["Homosexuality has been legal in Israel since 1988 and forgien same-sex marriage is recognized only. In fact Tel Aviv is known as Israrels gay capital with many liberal and lively people whom are part of the LGBT commnity.", "Yes", "It is safe to disclose sexual-orientation and same-sex relationships. However, keep caution.", "No","like"],
+
+  "Egypt": ["Homosexuality and same-sex marriage is still illegal (imprsionment as punishment) in Egypt and sadly have not yet been recognized. It is recommended to be cautious if you do decide to travel to Egypt.", "No", "We highly recommend not disclosing sexual orientation nor same-sex relationships", "No","sure"],
+
+  "Kenya": ["Homosexuality and same-sex marriage is still illegal (imprsionment as punishment) in Kenya and sadly have not yet been recognized. It is recommended to be cautious if you do decide to travel to Kenya.", "No", "We highly recommend not disclosing sexual orientation nor same-sex relationships", "No","awake"],
+
+  "Thailand": ["Homosexuality is legal in Thailand. It has been legal since 1956 but unfortunately same-sex marriage is not yet legal or recognized.", "Yes", "It is safe to disclose sexual-orientation and same-sex relationships. However, keep caution.", "No","yes"],
+
+  "Area 51": ["Aliens are pretty gay, ok."],
 }
 var nameOfAttributes = ["Legality", "PDA", "Publicity","Behavior", "Dress Code"];
 /*
