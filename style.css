@@ -1,15 +1,23 @@
 .navtext a:hover{color: #fcb97e}
-
 ::selection{
-  color:white;
-  background: grey;
+ color:white;
+ background: grey;
 }
-
-#logo{
-    height:40%; 
-    width:40%;
-    float: left
+ 
+ 
+#enterDestination{
+ color: white;
+}
+ 
 }
 .navtext{
-    padding-top:20px
+   padding-top:20px
+}
+ 
+fontz{
+ color: white;
+  font-size: 50px;
+  -webkit-text-stroke: 0.5px;
+}
+xt-stroke: 0.5px;
 }
