@@ -1,9 +1,26 @@
 .navtext a:hover{color: #fcb97e}
 
-/* ::selection{
+::selection{
   color:white;
   background: grey;
-} */
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  vertical-align: top;
+  background-size: cover;
+}
+#CountryName{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: rgba(46, 49, 49, 0.5); 
+  font-weight: bolder;
+}
 
 .navtext{
     padding-top:20px
